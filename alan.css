@@ -1,86 +1,47 @@
-nav{
-    margin-top: -15px;
-    float: right;
-    position: absolute;
-    padding-left: 890px;
-}
-nav a{
-    font-size: 24px;
-}
-nav ul li{
-    float: left;
-    list-style: none;
-}
-p{
-    font-family: sans-serif;
-}
-h1 {
-    text-align: center;
-    margin-bottom: 10px;
-    color: blue;
-    font-size: 40px;
-}
 body{
-    align-items: center;
-    background-color: aqua;
-    display: grid;
-    grid-template-columns: 500px 200px 200px 250px;
-    grid-template-areas: 
-    ".h1 h1 h1."
-    ".img img img."
-    ".centermain centermain centermain."
-    ".EarlyLife EarlyLife EarlyLife."
-    ".EarlyLifePara EarlyLifePara EarlyLifePara."
-    ".Career Career Career."
-    ".CareerPara CareerPara CareerPara.";
+	padding-left: 29%;
+	padding-right: 25%;
+	background-color: aqua;
 }
-h1{
-    grid-area: h1;
+nav{
+	float: right;
 }
-img{
-    grid-area: img;
-    border-radius: 50%;
-    width: 50%;
-    height: 445px;
-    margin-left: 150px;
+nav ul li {
+  list-style: none;
+  width: 120px;
+  text-decoration-line: underline;
+  float: left;
+	
 }
-.centermainpa{
-    grid-area: centermain;
-    font-weight: bolder;
-    font-family: sans-serif;
+nav ul li a{
+	text-decoration: none;
+	
+	width: 120px;
+	height: 20px;
+	line-height: 40px;
 }
-#EarlyLife{
-    grid-area: EarlyLife;
-    text-align: center;
-    text-decoration-line: underline;
-    color: blue;
+h1 u {
+	 text-align: center; 
+	 color: blue;padding-left: 172px;
+	 }
+img {
+	border-radius: 50%;
+	width: 50%;
+    margin-left: 156px;
 }
-.EarlyLifePara
-{
-    grid-area: EarlyLifePara;
-}
-#Career{
-    grid-area: Career;
-    text-align: center;
-    color: blue;
-    text-decoration-line: underline;
-}
-.CareerPara{
-    grid-area: CareerPara;
-}
-#PersonalLife{
-    text-align: center;
-    color: blue;
-    text-decoration-line: underline;
+#EarlyLife,#Career,h2,#Facts {
+	text-align: center;
+	color: blue;
+	text-decoration: underline;
+	
 }
 #Honours{
-    text-align: center;
-    color: red;
-    text-decoration-line: underline;
+	color: red;
+	text-align: center;
+	text-decoration: underline;
 }
-p.bright
-{
-    color: red;
+p.bright{
+	color: red;
 }
 a.spl-linka {
     border-style: inset;
@@ -97,12 +58,6 @@ a.spl-linkb {
     text-decoration-line: none;
     color: white;
     border-width: 6px;
-}
-h2#InterestingFacts
-{
-    color: blue;
-    text-decoration-line: underline;
-    text-align: center;
 }
 @font-face {
     font-family: 'Great Vibes';
